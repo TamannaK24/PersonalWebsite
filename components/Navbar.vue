@@ -14,18 +14,19 @@
     <div>
         <div>
             <!-- Mobile -->
-            <div class="sm:hidden px-6 py-6 bg-[#756652]">
+            <div class="sm:hidden px-6 py-6 bg-[#947F63]">
                 <button @click="toggleNav">
                     <Menu v-if="!navOpen" class="w-6 h-6 text-white" />
                     <X v-else class="w-6 h-6 text-white"/>
                 </button>
             </div>   
             
-            <nav v-if="navOpen" class="sm:hidden px-6 py-6 bg-[#756652]">
-                <a href="#" class="block">Logo</a>
-                <a href="#" class="block">Link1</a>
-                <a href="#" class="block">Link2</a>
-                <a href="#" class="block">Link3</a>
+            <nav v-if="navOpen" class="sm:hidden px-6 py-6 bg-[#947F63] text-white gap-y-4 flex flex-col items-left">
+                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">About</a>
+                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Organizations</a>
+                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Projects</a>
+                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Hobbies</a>
+                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition" >Contact</a>
             </nav>
         </div>
 
