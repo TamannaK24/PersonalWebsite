@@ -22,11 +22,11 @@
             </div>   
             
             <nav v-if="navOpen" class="sm:hidden px-6 py-6 bg-[#947F63] text-white gap-y-4 flex flex-col items-left">
-                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">About</a>
-                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Organizations</a>
-                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Projects</a>
-                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Hobbies</a>
-                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition" >Contact</a>
+                <NuxtLink to="/about" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">About</NuxtLink>
+                <NuxtLink to="/organizations"  class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Organizations</NuxtLink>
+                <NuxtLink to="/projects" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Projects</NuxtLink>
+                <NuxtLink to="/hobbies" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Hobbies</NuxtLink>
+                <NuxtLink to="/contact" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition" >Contact</NuxtLink>
             </nav>
         </div>
 
@@ -37,11 +37,11 @@
             </a>
             
             <div class="flex items-center gap-x-10 text-white">
-                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">About</a>
-                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Organizations</a>
-                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Projects</a>
-                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Hobbies</a>
-                <a href="#" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition" >Contact</a>
+                <NuxtLink to="/about" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">About</NuxtLink>
+                <NuxtLink to="/organizations" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Organizations</NuxtLink>
+                <NuxtLink to="/projects" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Projects</NuxtLink>
+                <NuxtLink to="/hobbies" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition">Hobbies</NuxtLink>
+                <NuxtLink to="/contact" class="text-base block rounded-full bg-[#756652] px-6 py-4 border border-transparent hover:border-white transition" >Contact</NuxtLink>
             </div>
         </div>
     </div>
