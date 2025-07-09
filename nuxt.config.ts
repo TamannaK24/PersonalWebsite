@@ -3,6 +3,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
+  components: true,
 
   css: ['~/assets/css/main.css'], // make sure this file has @tailwind directives
 
@@ -10,7 +11,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-lucide-icons',
     '@nuxt/fonts',
-    '@nuxtjs/google-fonts',
+    '@nuxtjs/google-fonts'
+    ,
   ],
 
   tailwindcss: {
